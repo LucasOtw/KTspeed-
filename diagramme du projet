@@ -1,9 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T06:32:54.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.1.5" etag="MWAdF-s9SEWpLZQCLq7j" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T07:22:51.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tYplxrfDWdmIamjOAa03" version="21.1.5" type="github">
   <diagram name="Page-1" id="mKKA3dXeEsurgp7Zk_88">
-    <mxGraphModel>
+    <mxGraphModel dx="1363" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.478;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5SC-vV-FE5UsCyAxJXzi-1" target="5SC-vV-FE5UsCyAxJXzi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-1" value="Interface Utilisateur" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-2" value="Contrôle de l&#39;Arduino via module Bluetooth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="329" y="210" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-10" value="DataBase&lt;br&gt;(Firebase)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="385" y="340" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5SC-vV-FE5UsCyAxJXzi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="340" as="sourcePoint" />
+            <mxPoint x="464" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="464" y="340" />
+              <mxPoint x="414" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499" y="230" as="sourcePoint" />
+            <mxPoint x="560" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="230" as="sourcePoint" />
+            <mxPoint x="329" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-14" value="Capteur bluetooth Arduino" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="80" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5SC-vV-FE5UsCyAxJXzi-15" target="5SC-vV-FE5UsCyAxJXzi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-15" value="Capteur&amp;nbsp;&lt;br&gt;vitesse&lt;br&gt;Arduino" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="80" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-16" value="attacher sur la roue&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="346.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="257.5" as="sourcePoint" />
+            <mxPoint x="210" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5SC-vV-FE5UsCyAxJXzi-19" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="406.25" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
